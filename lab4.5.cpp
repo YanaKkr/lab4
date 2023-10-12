@@ -20,8 +20,8 @@ int main()
 cout << endl << fixed;
 for (int i=0; i<10; i++)
 {
-x = 6.*rand()/RAND_MAX - R; 
-y = 6.*rand()/RAND_MAX - R;
+x = 2*R *rand()/RAND_MAX - R; 
+y = 2*R *rand()/RAND_MAX - R;
 if ((y*y<=(R*R-x*x) && y >=0 && x>=0)||
          (y<=0 && x<=0 && y>-x-R ))
 cout << setw(8) << setprecision(4) << x << " "
